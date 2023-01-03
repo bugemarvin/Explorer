@@ -1,65 +1,14 @@
-@mixin clearfix {
-        &::after{
-         content: "";
-         clear:both;
-         display: table;
-        }
-     }
-     
-     @mixin absCenter {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-     }
-     
-     //Media query manager
-     /*
-     0 - 600px(0 - 60rem): Phone
-     600 - 900px(60rem - 90rem): tablet portrait
-     900 - 1200px(90rem - 120rem): Tablet landscape
-     [1200 - 1800px(120rem - 180rem)] is where the normal css styles apply
-     1800px + (180rem + ): Big Desktop
-     */
-     
-     @mixin respond-phone {
-        @media only screen and (max-width: 600px) {
-           @content
-        };
-     }
-     
-     /*
-     $breakpoint argument choices:
-     - phone
-     - tab-port
-     - tab-land
-     - big-desktop
-     1em = 16px
-     */
-     @mixin respond($breakpoint) {
-        /*@if $breakpoint == phone-small{  //282px
-           @media (max-width: 17.6em) {
-              @content
-           };
-        }*/
-        @if $breakpoint == phone{  //600px
-           @media only screen and (max-width: 37.5em) {
-              @content
-           };
-        }
-        @if $breakpoint == tab-port{  //900px
-           @media only screen and (max-width: 56.25em) {
-              @content
-           };
-        }
-        @if $breakpoint == tab-land{  //1200px
-           @media only screen and (max-width: 75em) {
-              @content
-           };
-        }
-        @if $breakpoint == big-desktop{  //1800px
-           @media only screen and (min-width: 112.5em) {
-              @content
-           };
-        }
-     }
+//mixin
+@mixin flx {
+  display: flex;
+}
+
+@mixin col {
+  @include flx;
+  flex-direction: column;
+}
+
+@mixin rw {
+   @include flx;
+   flex-direction: row;
+}
