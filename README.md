@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://github.com/bugemarvin/Explorer/blob/main/assets/img/logo_transparent.png" style="width:86%;height:420px;" />
+<img src="https://github.com/bugemarvin/explorer/blob/main/static/images/logo_transparent.png" style="width:86%;height:420px;" />
 </div>
 
 # <p align="center">Introduction</p>
