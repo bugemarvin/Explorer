@@ -27,4 +27,4 @@ Each of us wrote a blog post in regards to the the portfolio project as below.
 # <p align="center">Tutorial</p>
 
 Coming soon
-fix commits
+s
