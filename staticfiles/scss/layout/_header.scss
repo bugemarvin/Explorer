@@ -1,32 +1,9 @@
-.heading {
+.headers {
         @include col;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
         width: 100%;
-        background-color: #dfba89;;
-        height: 6rem;
-        
-        &__logo {
-                font-size: 3.6rem;
-                color: #ffffff;
-        }
-        
-        &__link {
-                font-size: 1.6rem;
-                padding: 0.6rem;
-                color: black;
-        }
-        
-        &__nav {
-                @include rw;
-                width: 100%;
-                align-items: center;
-                padding: 1rem;
-                justify-content: space-between;
-        }
-        
-        &__menu {
-                @include rw;
-                position: absolute;
-                right: 0;
-                padding-right: 2rem;
-        }
+        height: 93vh;
+        background: blanchedalmond;
 }
