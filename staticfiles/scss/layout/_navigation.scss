@@ -1,16 +1,46 @@
-.navbar {
-        position: absolute !important;
+.navbar-default .navbar-brand {
+        color: #304352;
+        font-size: 28px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        margin: 0;
+}
+
+.navbar-default .navbar-nav li a span {
+        position: relative;
+        display: block;
+        padding-bottom: 2px;
+}
+
+.navbar-default .navbar-nav li a {
+        color: #777;
+        font-size: 14px;
+        font-weight: 300;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        -webkit-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+        padding-right: 22px;
+        padding-left: 22px;
+}
+
+.navbar-default .navbar-nav li a span:before {
+        content: "";
+        position: absolute;
         width: 100%;
-
-
-        &-brand {
-                padding-left: 1.5rem;
-        }
-
-        
-        &-nav {
-                position: absolute;
-                right: 0;
-                padding-right: 1.5rem;
-        }
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(255, 255, 255, 0.5);
+        visibility: hidden;
+        -webkit-transform: scaleX(0);
+        -moz-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+        -o-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        -moz-transition: all 0.3s ease-in-out 0s;
+        -ms-transition: all 0.3s ease-in-out 0s;
+        -o-transition: all 0.3s ease-in-out 0s;
+        transition: all 0.3s ease-in-out 0s;
 }

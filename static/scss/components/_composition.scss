@@ -1,0 +1,18 @@
+.heading {
+        font-size: 3.5rem;
+
+        &__logo {
+                font-size: 4.5rem;
+                color: #c1b682 !important;
+        }
+
+        &__main {
+                font-weight: 900;
+        }
+        &__place {
+                left: 50%;
+                position: absolute;
+                transform: translateX(-50%);
+                margin-top: 3.5rem;
+        }
+}

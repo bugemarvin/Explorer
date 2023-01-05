@@ -1,6 +1,7 @@
-.navbar {
-        position: absolute !important;
+/*.navbar {
+        position: fixed !important;
         width: 100%;
+        background: #785d0f00 !important;
 
 
         &-brand {
@@ -12,5 +13,9 @@
                 position: absolute;
                 right: 0;
                 padding-right: 1.5rem;
+                font-size: 1.5rem;
+                &.nav-link {
+                        color: beige;
+                }
         }
-}
+}*/
