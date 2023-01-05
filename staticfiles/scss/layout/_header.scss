@@ -1,12 +1,12 @@
 .heading {
         @include col;
         width: 100%;
-        background-color: azure;
+        background-color: #dfba89;;
         height: 6rem;
-        justify-content: center;
         
         &__logo {
                 font-size: 3.6rem;
+                color: #ffffff;
         }
         
         &__link {
