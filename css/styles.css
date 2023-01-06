@@ -6306,6 +6306,8 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 1rem;
+  background: #212529b3;
+  color: #b98f0f;
 }
 .offcanvas-header .btn-close {
   padding: 0.5rem 0.5rem;
@@ -6323,6 +6325,7 @@ textarea.form-control-lg {
   flex-grow: 1;
   padding: 1rem 1rem;
   overflow-y: auto;
+  background-color: aliceblue;
 }
 
 .offcanvas-start {
@@ -6345,10 +6348,13 @@ textarea.form-control-lg {
   top: 0;
   right: 0;
   left: 0;
-  height: 30vh;
+  height: 90vh;
   max-height: 100%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   transform: translateY(-100%);
+  width: 80%;
+  left: 10%;
+  top: 30px;
 }
 
 .offcanvas-bottom {
@@ -6379,6 +6385,11 @@ textarea.form-control-lg {
 
 .placeholder-xs {
   min-height: 0.6em;
+}
+
+.btn-link, .btn:focus {
+  outline: 0;
+  box-shadow: none
 }
 
 .placeholder-sm {
