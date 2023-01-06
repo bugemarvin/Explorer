@@ -1,10 +1,18 @@
 <div align="center">
-<img src="https://github.com/bugemarvin/explorer/blob/main/static/images/logo_transparent.png" style="width:86%;height:420px;" />
+<a href="https://bugemarvin.github.io/explorer" target=”_blank”>
+<img src="https://github.com/bugemarvin/explorer/blob/main/static/images/old/logo_transparent.png" style="width:86%;height:420px;" />
+</a>
 </div>
 
 # <p align="center">Introduction</p>
 
 Every person struggles while visiting a new place, to find a place to rest, eat as well have fun.  However to reduce the hassle of discovering new places by asking around, the fear of being hijacked as well as stolen from. This is why we created Explorer.
+
+
+### Langing Page
+
+Please fnd below link to the main landing page of the web site\
+<a href="https://bugemarvin.github.io/explorer" target=”_blank”>Explorer</a>
 
 # <p align="center">The Project</p>
 
@@ -27,4 +35,3 @@ Each of us wrote a blog post in regards to the the portfolio project as below.
 # <p align="center">Tutorial</p>
 
 Coming soon
-s
