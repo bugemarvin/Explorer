@@ -11730,10 +11730,22 @@ header.masthead .masthead-heading {
 }
 
 section#contact {
-  background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+  background-color: #212529db;
+  /*background-image: url("../assets/videos/bg-vid");*/
   background-repeat: no-repeat;
   background-position: center;
+  position: inherit;
+  overflow: hidden;
+}
+section#contact #myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 90%;
+  z-index: -5;
+  background-size: cover;
+  top: -75px;
 }
 section#contact .section-heading {
   color: #fff;
