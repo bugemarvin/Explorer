@@ -601,7 +601,7 @@ progress {
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .img-thumbnail {
@@ -11568,6 +11568,15 @@ header.masthead .masthead-heading {
   display: table;
   content: " ";
 }
+
+.h4-left {
+  margin-right: 10% !important;
+}
+
+.h4-right {
+  margin-left: 10% !important;
+}
+
 .timeline > li:after {
   clear: both;
 }
