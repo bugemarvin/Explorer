@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+        padding: 0 auto;
+        margin: 0 auto;
+        box-sizing: inherit;
+        
+}
+
+html {
+        font-size: 62.5%;
+}
+*::selection {
+     background: #ffc800;
+}
+
+body {
+        font-size: 1.6rem;
+        box-sizing: border-box;
+}
+a,
+a:visited,
+a:hover {
+        text-decoration: none;
+}

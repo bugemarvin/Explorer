@@ -1,0 +1,119 @@
+*,
+*::after,
+*::before {
+  padding: 0 auto;
+  margin: 0 auto;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+*::selection {
+  background: #ffc800;
+}
+
+body {
+  font-size: 1.6rem;
+  box-sizing: border-box;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+
+/*All buttons*/
+.btn {
+  border: none;
+}
+
+/*
+button primarry colors to use
+*/
+/*Hover effect*/
+/*navigation area*/
+.navigation {
+  background-color: #212529 !important;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.navigation__logo {
+  margin-left: 7rem;
+  text-transform: uppercase;
+  font-size: 2.05em;
+  font-weight: 700;
+  letter-spacing: 0.0625em;
+}
+.navigation__links {
+  color: #ffc800 !important;
+}
+.navigation__forms {
+  align-items: center;
+  position: absolute;
+}
+.navigation__btn {
+  background-color: #ffc800 !important;
+  height: 100%;
+  padding: 0.5rem;
+  border: none;
+  font-size: 1.5rem;
+}
+.navigation__btn:hover {
+  background-color: #cca000 !important;
+  color: #fff !important;
+}
+
+/*footer section*/
+.footers {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.footers__links:hover {
+  color: #cca000 !important;
+}
+.footers_fafas {
+  font-size: 1.4rem !important;
+}
+
+.me-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.8rem;
+}
+
+.mx-2 {
+  font-size: 1.4rem;
+}
+
+@media screen and (min-width: 992px) {
+  .mb-2 {
+    right: 0;
+    margin-right: 9rem !important;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 991px) {
+  .align-items-center {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1157px) {
+  .navigation__forms {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .navigation__forms {
+    position: relative !important;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

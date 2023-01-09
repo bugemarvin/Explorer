@@ -1,0 +1,51 @@
+/*navigation area*/
+.navigation {
+        background-color: $dark;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        &__logo {
+                margin-left: 7rem;
+                text-transform: uppercase;
+                font-size: 2.05em;
+                font-weight: 700;
+                letter-spacing: 0.0625em;
+        }
+
+        &__links {
+                color: $btn-primary;
+        }
+
+        &__forms {
+                align-items: center;
+                position: absolute;
+        }
+
+        &__btn {
+                background-color: $btn-primary;
+                height: 100%;
+                padding: 0.5rem;
+                border: none;
+                font-size: 1.5rem;
+                &:hover{
+                        background-color: $btn-primary-hover;
+                        color: $white;
+                }
+        }
+}
+
+/*footer section*/
+.footers {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100% ;
+        &__links {
+                &:hover {
+                        color: $btn-primary-hover;
+                }
+        }
+        
+        &_fafas {
+                font-size: 1.4rem !important;
+        }
+}

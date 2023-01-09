@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Explorer</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link href="/css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <nav class="navigation navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <button class="navbar-toggler navigation__btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand navigation__links navigation__logo" href="index.html">Explorer</a>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <form class="d-flex navigation__forms" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn navigation__btn" type="submit">Search</button>
+                </form>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active navigation__links" aria-current="page" href="index.html">
+                        <button type="button" class="btn navigation__btn">
+                            Home
+                            <ion-icon name="home-outline"></ion-icon>
+                        </button>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active navigation__links" aria-current="page" href="maps.html">
+                        <button type="button" class="btn navigation__btn">
+                            Guide
+                            <ion-icon name="navigate-outline"></ion-icon>
+                        </button>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link navigation__links" aria-current="page" data-bs-toggle="offcanvas" data-bs-target="#notificationPopup" aria-controls="notificationPopup">
+                        <button type="button" class="btn navigation__btn">
+                            Notification
+                            <ion-icon name="notifications-outline"></ion-icon>
+                            <span class="sr-only">unread messages</span>
+                        </button>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link navigation__links" aria-current="page" data-bs-toggle="offcanvas" data-bs-target="#messagesPopup" aria-controls="messagesPopup">
+                        <button type="button" class="btn navigation__btn">
+                            Messages
+                            <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+                            <span class="sr-only">unread messages</span>
+                        </button>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link navigation__links" aria-current="page" data-bs-toggle="offcanvas" data-bs-target="#settingsPopup" aria-controls="settingsPopup">
+                        <button type="button" class="btn navigation__btn">
+                            Settings
+                            <ion-icon name="settings-outline"></ion-icon>
+                        </button>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!--Popup for the website-->
+          <!--Pop for notification-->
+          <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="notificationPopup" aria-labelledby="notificationPopupLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <p>Try scrolling the rest of the page to see this option in action.</p>
+            </div>
+          </div>
+          <!--Pop for messages-->
+          <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="messagesPopup" aria-labelledby="messagesPopupLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <p>Try scrolling the rest of the page to see this option in action.</p>
+            </div>
+          </div>
+          <!--Pop for settings-->
+          <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="true" tabindex="-1" id="settingsPopup" aria-labelledby="settingsPopupLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <p>Try scrolling the rest of the page to see this option in action.</p>
+            </div>
+          </div>
+          <!--content area-->
+          <h1>Google maps section</h1>
+          <!--End of content section-->
+          <!-- Footer-->
+        <footer class="footers footer py-4">
+            <div class="container">
+                <div class="footers__items row align-items-center">
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; Alx 2022</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a class="footers__links link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                        <a class="link-dark text-decoration-none footers__links" href="#!">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
