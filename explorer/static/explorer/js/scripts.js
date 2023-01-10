@@ -51,3 +51,8 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+const $ = window.$;
+$(document).ready(function(){
+    $(data-navs).onclick()
+})
