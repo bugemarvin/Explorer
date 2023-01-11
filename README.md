@@ -1,9 +1,4 @@
-<div align="center">
-<a href="https://bugemarvin.github.io/explorer" target=”_blank”>
-<img src="https://github.com/bugemarvin/explorer/blob/main/static/images/old/logo_transparent.png" style="width:86%;height:420px;" />
-</a>
-</div>
-
+<a href="https://bugemarvin.github.io/explorer" target=”_blank” style="font-weight:700; color:yellow;">Explorer</a>
 # <p align="center">Introduction</p>
 
 Every person struggles while visiting a new place, to find a place to rest, eat as well have fun.  However to reduce the hassle of discovering new places by asking around, the fear of being hijacked as well as stolen from. This is why we created Explorer.
