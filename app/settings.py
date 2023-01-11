@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'explorer',
     'compressor',
+    'embed_video',
 ]
 
 MIDDLEWARE = [
