@@ -17,6 +17,7 @@
 
 Explorer is a web application for travelers to meet and share their traveling experinces while visiting places arround the globe and have the feel a sense of their own community menbers and precence of self belonging.
 
+
 ## Demo
 
 Here is a working demo of the UI landing page <a href="https://bugemarvin.github.io/explorer/" target="_blank">Explorer</a>
@@ -36,6 +37,35 @@ The following web site is compatible with any devices.
 <img src="/assets/Readme/Moblie_landing-page1.png" height="460px" />
 
 
+# Getting Started
+
+1. Clone the repository from  [![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com) 
+  ```
+  user@user:~/Desktop/my_projects$ https://github.com/bugemarvin/explorer.git
+  ```
+
+## Installation
+1. Install `Node` from link: <a href="https://nodejs.org/en/download/"> Download Link </a>
+2. Install `python` from link: <a href="https://nodejs.org/en/download/"> Download Link </a> # worked with python3 and above
+
+via terminal | command line
+  ```
+  > $@$:~/Desktop/my_projects$ npm install sass # Installtion of Sass
+  > $@$:~/Desktop/my_projects$ sudo apt-get install python3-pip # Installtion of pip first
+  > $@$:~/Desktop/my_projects$ sudo pip3 install virtualenv # Installtion of virtual env
+  > user@user:~/Desktop/my_projects$ ls # list the files
+  > explorer
+  > user@user:~/Desktop/my_projects$ virtualenv explorer # To initialize your vm in the project
+  > user@user:~/Desktop/my_projects$ source explorer/bin/activate # to activate your virtual enviroment
+  > (explorer)user@user:~/Desktop/my_projects$  # vitual enviroment activated
+  > (explorer)user@user:~/Desktop/my_projects$ cd explorer 
+  > (explorer)user@user:~/Desktop/my_projects$ pip install -r requierments.txt # to install the tools used in the project
+  ```
+### Bug / Feature Request
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue by including your search query and the expected result.
+
+If you'd like to request a new function, feel free to do so by opening an issue. Please include sample queries and their corresponding results.
+
 ## TODO LIST
 
 > Bloging Page\
@@ -44,10 +74,16 @@ The following web site is compatible with any devices.
 > Messages\
 > Notifications
 
+## Team
 
-# Getting Started
+Marvin Buge
 
-1. [![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com) Clone the repository from  Github
+![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)  ![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)  ![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)  ![Outlook](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)  ![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)
 
+Samuel Ekati 
 
+![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)  ![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)  ![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)  ![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)
 
+Chukwuemeka Samuel
+
+![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)  ![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)  ![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)  ![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)
