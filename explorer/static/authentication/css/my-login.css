@@ -7,9 +7,9 @@ body.my-login-page {
 	background-color: #f7f9fb;
 	font-size: 1.4rem;
 }
-
+/*button sections for login sections*/
 .btn-primary {
-	color: #fff;
+	color: #ffffff;
 	background-color: #ffc800;
 	border-color: #ffc800;
 }
