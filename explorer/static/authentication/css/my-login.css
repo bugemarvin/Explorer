@@ -1,0 +1,122 @@
+html,body {
+	height: 100%;
+	font-size: 62.5%;
+}
+
+body.my-login-page {
+	background-color: #f7f9fb;
+	font-size: 1.4rem;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #ffc800;
+	border-color: #ffc800;
+}
+
+.btn-primary:hover {
+	color: #fff;
+	background-color: #d9aa00;
+	border-color: #cca000;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+	background-color: #ffc800 !important;
+}
+
+a:hover {
+	color: #cca000;
+	text-decoration: none;
+}
+
+.my-login-page .brand {
+	width: 9rem;
+	height: 9rem;
+	overflow: hidden;
+	border-radius: 50%;
+	margin: 4rem auto;
+	box-shadow: 0 4px 8px rgba(0,0,0,.05);
+	position: relative;
+	z-index: 1;
+}
+
+.my-login-page .brand img {
+	width: 100%;
+}
+
+.my-login-page .card-wrapper {
+	width: 40rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+.my-login-page .card {
+	border-color: transparent;
+	box-shadow: 0 0.4rem 0.8rem rgba(0,0,0,.05);
+}
+
+.text-muted {
+	font-size: 1.45rem;
+}
+
+.my-login-page .card.fat {
+	padding: 1rem;
+	top: 50%;
+	transform: translateY(-50%);
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	max-width: 27%;
+}
+
+.my-login-page .card .card-title {
+	margin-bottom: 3rem;
+	font-size: 2.5rem;
+}
+
+.my-login-page .form-control {
+	border-width: 0.23rem;
+	padding: 2rem;
+}
+
+.my-login-page .form-group label {
+	width: 100%;
+	font-size: 1.2rem;
+}
+
+.my-login-page .btn.btn-block {
+	padding: 1.2rem 1rem;
+	font-size: 1.72rem;
+}
+
+.my-login-page .footer {
+	color: #888;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	z-index: 1;
+	margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 42.5rem) {
+	.my-login-page .card-wrapper {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.my-login-page .card.fat {
+		padding: 0;
+	}
+
+	.my-login-page .card.fat .card-body {
+		padding: 1.5rem;
+	}
+}
