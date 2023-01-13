@@ -17,24 +17,25 @@
 				<div class="card-wrapper">
 					<div class="card fat">
 						<div class="card-body">
-							<h4 class="card-title">Login</h4>
+							<h4 class="card-title" data-toggle="tooltip" data-placement="top" title="Click here to return to Home"><a class="text-dark" href="/">Login </a></h4>
 							<form method="POST" class="my-login-validation" novalidate="">
+								{% csrf_token %}
 								<div class="form-group">
-									<label for="email">E-Mail Address</label>
-									<input id="email" type="email" class="form-control" name="email" value="" required autofocus>
-									<div class="invalid-feedback">
-										Email is invalid
+									<label for="username">Username</label>
+									<input id="email" type="text" class="form-control" name="username" value="" required autofocus>
+									<div class="invalidFeedback">
+										Username is required
 									</div>
 								</div>
 
 								<div class="form-group">
 									<label for="password">Password
-										<a href="/forgot" class="float-right">
+										<a href="/forgot_users" class="float-right">
 											Forgot Password?
 										</a>
 									</label>
 									<input id="password" type="password" class="form-control" name="password" required data-eye>
-								    <div class="invalid-feedback">
+								    <div class="invalidFeedback">
 								    	Password is required
 							    	</div>
 								</div>
@@ -52,7 +53,7 @@
 									</button>
 								</div>
 								<div class="mt-4 text-center">
-									Don't have an account? <a href="/signup">Create One</a>
+									Don't have an account? <a href="/signup_users">Create One</a>
 								</div>
 							</form>
 						</div>

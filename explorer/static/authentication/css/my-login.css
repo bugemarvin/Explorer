@@ -20,6 +20,18 @@ body.my-login-page {
 	border-color: #cca000;
 }
 
+.was-validated .form-control:invalid~.invalidFeedback {
+	display: block;
+}
+
+.invalidFeedback {
+	display: none;
+	width: 100%;
+	margin-top: 0.25rem;
+	font-size: 80%;
+	color: #dc3545;
+}
+
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
 	background-color: #ffc800 !important;
 }

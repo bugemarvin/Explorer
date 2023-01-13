@@ -16,12 +16,12 @@
 				<div class="card-wrapper">
 					<div class="card fat">
 						<div class="card-body">
-							<h4 class="card-title">Register</h4>
+							<h4 class="card-title" data-toggle="tooltip" data-placement="top" title="Click here to return to Home"><a class="text-dark" href="/">Register</a></h4>
 							<form method="POST" class="my-login-validation" novalidate="">
 								<div class="form-group">
 									<label for="name">Name</label>
 									<input id="name" type="text" class="form-control" name="name" required autofocus>
-									<div class="invalid-feedback">
+									<div class="invalidFeedback">
 										What's your name?
 									</div>
 								</div>
@@ -29,7 +29,7 @@
 								<div class="form-group">
 									<label for="email">E-Mail Address</label>
 									<input id="email" type="email" class="form-control" name="email" required>
-									<div class="invalid-feedback">
+									<div class="invalidFeedback">
 										Your email is invalid
 									</div>
 								</div>
@@ -37,7 +37,7 @@
 								<div class="form-group">
 									<label for="password">Password</label>
 									<input id="password" type="password" class="form-control" name="password" required data-eye>
-									<div class="invalid-feedback">
+									<div class="invalidFeedback">
 										Password is required
 									</div>
 								</div>
@@ -58,7 +58,7 @@
 									</button>
 								</div>
 								<div class="mt-4 text-center">
-									Already have an account? <a href="/login">Login</a>
+									Already have an account? <a href="/login_users">Login</a>
 								</div>
 							</form>
 						</div>

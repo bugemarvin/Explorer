@@ -1,12 +1,10 @@
-// javascriptses
-'use strict'
+'use strict';
 const $ = window.$;
 
 $(function () {
   $("input[type='password'][data-eye]").each(function (i) {
     const $this = $(this);
     const id = 'eye-password-' + i;
-    const el = $('#' + id);
 
     $this.wrap($('<div/>', {
       style: 'position:relative',
@@ -34,10 +32,10 @@ $(function () {
       id: 'passeye-' + i
     }));
 
-    const invalid_feedback = $this.parent().parent().find('.invalid-feedback');
+    const invalidFeadback = $this.parent().parent().find('.invalidFeedback');
 
-    if (invalid_feedback.length) {
-      $this.after(invalid_feedback.clone());
+    if (invalidFeadback.length) {
+      $this.after(invalidFeadback.clone());
     }
 
     $this.on('keyup paste', function () {
@@ -60,8 +58,9 @@ $(function () {
   $('.my-login-validation').submit(function () {
     const form = $(this);
     if (form[0].checkValidity() === false) {
-      event.preventDefault();
-      event.stopPropagation();
+      const evt = event;
+      evt.preventDefault();
+      evt.stopPropagation();
     }
     form.addClass('was-validated');
   });
