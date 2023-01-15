@@ -31,6 +31,7 @@
       </head>
     <body id="page-top" class="bg-body-tertiary">
       {% block content %}
+      {% csrf_token %}
 
         <nav class="navigation navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
