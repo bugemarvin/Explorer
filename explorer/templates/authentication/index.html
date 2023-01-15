@@ -16,6 +16,13 @@
 			<div class="row justify-content-md-center h-100">
 				<div class="card-wrapper">
 					<div class="card fat">
+						{% if messages %}
+							{% for messages in messages %}
+							<div class="alert alert-danger alert-dismissible fade show text-center" role="alert">
+								{{ messages }}
+							      </div>
+							{% endfor %}
+						{% endif %}
 						<div class="card-body">
 							<h4 class="card-title" data-toggle="tooltip" data-placement="top" title="Click here to return to Home"><a class="text-dark" href="/">Login </a></h4>
 							<form method="POST" class="my-login-validation" novalidate="">

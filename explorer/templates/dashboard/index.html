@@ -29,7 +29,7 @@
         <link href="{% static 'dashboard/css/styles.css' %}" rel="stylesheet" />
     
       </head>
-    <body id="page-top">
+    <body id="page-top" class="bg-body-tertiary">
       {% block content %}
 
         <nav class="navigation navbar navbar-expand-lg bg-body-tertiary">
@@ -93,6 +93,15 @@
                         </button>
                     </a>
                   </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link active navigation__links" aria-current="page" href="/logout_users">
+                        <button type="button" class="btn navigation__btn">
+                            logout
+                            <ion-icon name="log-out-outline"></ion-icon>
+                        </button>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -138,7 +147,32 @@
 
 
           <!--content area-->
-          <h1>Home section</h1>
+          <div class="container-sm">
+            <div class="container-fluid d-flex flex-column mb-3">
+              &nbsp
+              <div class="row column-gap-3">
+                <div class="col bg-white">
+                  <div class="container-fluid d-flex flex-column mb-3 text-center">
+                    <div class="container-fluid mt-5">
+                      <img src="{% static 'explorer/assets/img/team/2.jpg' %}" class="img-thumbnail rounded w-75" alt="...">
+                    </div>
+                    <div class="container-fluid d-flex flex-column mb-3 flex-start">
+                      {% if user.is_authenticated %}
+                      <label><strong>{{ user.first_name }}   {{ user.last_name }}</strong></label>
+                      <label><strong>{{ user.email}}</strong></label>
+                      {% endif %}
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 bg-white">
+                  blog section
+                </div>
+                <div class="col bg-white">
+                  3 of 3
+                </div>
+              </div>
+            </div>
+          </div>
           <!--End of content section-->
 
 

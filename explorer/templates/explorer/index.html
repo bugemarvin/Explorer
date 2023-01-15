@@ -33,8 +33,12 @@
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                        <li class="nav-item" data-toggle="tooltip" data-placement="top" title="Click here to Login"><a class="nav-link" href="/login_users">Login</a></li>
-                        <li class="nav-item" data-toggle="tooltip" data-placement="top" title="Click here to Register"><a class="nav-link" href="/signup_users">Sign up</a></li>
+                        {% if user.is_authenticated %}
+                            <li class="nav-item"><a class="nav-link" href="/logout_users">Logout</a></li>
+                        {% else %}
+                            <li class="nav-item" data-toggle="tooltip" data-placement="top" title="Click here to Login"><a class="nav-link" href="/login_users">Login</a></li>
+                            <li class="nav-item" data-toggle="tooltip" data-placement="top" title="Click here to Register"><a class="nav-link" href="/signup_users">Sign up</a></li>
+                        {% endif %}
                     </ul>
                 </div>
             </div>

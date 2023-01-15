@@ -37,6 +37,7 @@ button primarry colors to use
 /*navigation area*/
 .navigation {
   background-color: #212529 !important;
+  margin-top: 2rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .navigation__logo {
@@ -63,6 +64,11 @@ button primarry colors to use
 .navigation__btn:hover {
   background-color: #cca000 !important;
   color: #fff !important;
+}
+
+/*Blog section*/
+.cig {
+  height: 20rem !important;
 }
 
 /*footer section*/
